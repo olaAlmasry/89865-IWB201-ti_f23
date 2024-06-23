@@ -1,0 +1,144 @@
+.AboutUs-header {
+    background: #4B96C9;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+
+  
+  section {
+            margin-top: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #4B96C9;
+        }
+  address {
+            background-color:#4B96C9;
+            padding: 15px;
+            line-height: 24px;
+            border-radius: 8px;
+        
+        }
+         .AboutUs-nav {
+    background-color: #4B96C9;
+color: white;    
+    padding: 10px 100px;
+    text-align: center;
+}
+  
+.AboutUs-nav a {
+  color:white;
+  margin: 0 10px;
+  padding: 10px 10px
+}
+          body {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+img { 
+    width: 50%;
+    height: 50%;
+    margin-top: 15px;
+    src: "مجلد جديد2/JPG 1.png ";
+}
+  nav {
+    background-color: #4B96C9;
+color: white;    
+    padding: 10px 100px;
+    text-align: center;
+}
+  
+nav a {
+  color:white;
+  margin: 0 10px;
+  padding: 10px 10px
+}
+
+table {
+
+    margin: 20px auto;
+    width: 80%;
+    background-color: #fff;
+    border-collapse: collapse;
+    box-shadow: 0 0 5px #4B96C9;
+
+}
+
+
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #4B96C9;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+a {
+    color: #4B96C9;
+    text-decoration: none;
+    font-size: 18px;
+}
+       
+
+    body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #f3f4f6;
+    color: #333;
+}
+.Properties-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.Properties-h1 {
+    color: #333;
+}
+
+.Properties-#details {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.Properties-.hide {
+    display: none;
+}
+
+.Properties-button {
+    background-color: #4B96C9;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.Properties-button:hover {
+    background-color: #4B96C9;
+}
+
+.Properties-#image-container img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}

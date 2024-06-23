@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+ <link rel="stylesheet" href="style.css"> <!-- الإشارة إلى ملف CSS -->
+         <script src="myFunctions.js"></script>
+</head>
+<body>
+        <script src="myFunctions.js"></script>
+
+    <nav>
+        <a href="home.html">الصفحة الرئيسية</a>
+        <a href="AboutUs.html">من نحن</a>
+        <a href="Properties.html">إظهار التفاصيل</a>
+       <a href="Form.html">متابعة</a>
+
+    </nav>
+    <table id="propertyList">
+  <tr>
+    <th>المدينة</th>
+    <th>تفاصيل</th>
+    <th>الإيجار الشهري</th>
+    <th>إظهار التفاصيل</th>
+    <th>اختيار</th>
+  </tr>
+  <tr>
+    <td>دمشق</td>
+    <td>شقة مساحة 70 م²</td>
+     <td>500000 ل.س</td>
+    <td><button onclick="toggleDetails('details1')"> إظهار التفاصيل </button></td>
+    <td><button onclick="showForm()">اختيار</button></td>
+  </tr>
+  <tr id="details1" class="hidden">
+    <td colspan="5"><p></p>
+    
+                  شقة مساحة 70 م² تتكون من غرفة وصالة ومطبخ وحمام.
+                  الشقة مفروشة بالكامل وتقع في الطابق الثالث من مبنى سكني حديث.
+                  يتوفر كراج للسيارة.</td>
+  </tr>
+     <tr>
+                <td>حمص</td>
+            <td>دكان مساحة 50 م²</td>
+            <td>250000 ل.س</td>
+<td><button onclick="toggleDetails('details1')">إظهار التفاصيل</button></td>
+    <td><button onclick="showForm()">اختيار</button></td>
+    <tr id="details1" class="hidden">
+    <td colspan="5"><p></p>
+                  دكان مساحة 50 م² يقع في شارع تجاري رئيسي.
+                  الدكان مناسب لمختلف أنواع الأنشطة التجارية.</td>
+  </tr>
+        </tr>
+        <tr>
+   <td>دمشق</td>
+           
+            <td>شقة فارغة مساحة 110 م² </td>
+            <td>600000 ل.س</td>
+<td><button onclick="toggleDetails('details1')">إظهار التفاصيل</button></td>
+    <td><button onclick="showForm()">اختيار</button></td>
+        </tr>
+  <tr id="details1" class="hidden">
+    <td colspan="5"><p></p> غرفتين وصالة مع حمام ومطبخ </td>
+  </tr>
+        <tr>
+    <td>دمشق</td>
+<td>شقة مساحة 150 م²   </td>
+            <td>800000 ل.س</td>
+
+            <td><button onclick="toggleDetails('details1')">إظهار التفاصيل</button></td>
+    <td><button onclick="showForm()">اختيار</button></td>
+          <tr id="details1" class="hidden">
+    <td colspan="5"><p></p>مكونة من ثلاث غرف مع حمام ومطبخ </td>
+  </tr>
+        </tr>
+        <tr>
+   <td>دمشق</td>
+            <td>ديلوكس</td>
+            <td>1200000 ل.س</td>
+             <td><button onclick="toggleDetails('details1')">إظهار التفاصيل</button></td>
+    <td><button onclick="showForm()">اختيار</button></td>
+         <tr id="details1" class="hidden">
+    <td colspan="5"><p></p> مكونة من خمس غرف  وصالة مساحة 250 م²</td>
+  </tr>  
+        </tr>
+        <tr>
+   <td>دمشق</td>
+ <td>فيلا </td>
+            <td>2000000 ل.س</td>
+            <td><button onclick="toggleDetails('details1')">إظهار التفاصيل</button></td>
+    <td><button onclick="showForm()">اختيار</button></td>
+        <tr id="details1" class="hidden">
+    <td colspan="5"><p></p>مكونة من سبع غرف واسعة مع ثلاث حمامات و مطبخ تركي مساحتها 500 م² </td>
+  </tr>   
+        </tr>
+        <tr>
+   <td>دمشق</td>
+ <td>مكتب مساحة 40 م²</td>
+            <td>300000 ل.س</td>
+            <td><button onclick="toggleDetails('details1')">إظهار التفاصيل</button></td>
+    <td><button onclick="showForm()">اختيار</button></td>
+           <tr id="details1" class="hidden">
+    <td colspan="5"><p></p> مكتب على الشارع الرئيسي ومجهز بالمياه والكهرباء </td>
+  </tr>
+        </tr>
+        <tr>
+   <td>دمشق</td>
+            <td>محل مساحة 100 م²</td>
+ <td>500000 ل.س</td>
+          <td><button onclick="toggleDetails('details1')">إظهار التفاصيل</button></td>
+    <td><button onclick="showForm()">اختيار</button></td>  
+    <tr id="details1" class="hidden">
+    <td colspan="5"><p></p> محل تجاري واسع وسقفه مرتفع  موقعه مميز  على زاوية شارعين </td>
+  </tr>
+        </tr>
+        <tr>
+              <td>دمشق</td>
+            <td>مستودع </td>
+            <td>200000 ل.س</td>
+ <td><button onclick="toggleDetails('details1')">إظهار التفاصيل</button></td>
+    <td><button onclick="showForm()">اختيار</button></td>
+    <tr id="details1" class="hidden">
+    <td colspan="5"><p></p> مساحة200 م² متميز يمكن ادخال سياره داخله لتحميل وتنزيل البضائع /خالي من الرطوبة ومجهز بالمياه والكهرباء </td>
+  </tr>
+        </tr>
+        <tr>
+  
+  <td>دمشق</td>
+            <td>أرض </td>
+            <td>400000 ل.س</td>
+<td><button onclick="toggleDetails('details1')">إظهار التفاصيل</button></td>
+    <td><button onclick="showForm()">اختيار</button></td>
+          <tr id="details1" class="hidden">
+    <td colspan="5"><p></p> ارض صالحة للزراعة و الاستثمار  بسبب تربتها والبئر الذي تحويه وموقعها مميز قريبة من الاستراد  </td>
+  </tr>  
+        </tr>
+</table>
+
+<tr> <img src="JPG طابق 3.png" title="شقة مساحة 70 م²"</tr>
+<tr> <img src="JPG رئيس.jpg" title=" محل مساحة 50 م²" </tr>
+<tr> <img src="JPG غرفتين.jpg" title="شقة فارغة مساحة 110 م²"</tr>
+<tr> <img src="JPG 3غرف.jpg" title="شقة مساحة 150 م²"</tr>
+<tr> <img src="JPG ديلوكس 1.jpg" title="ديلوكس "</tr>
+<tr> <img src="JPG ديلوكس.jpg" title="ديلوكس "</tr>
+<tr> <img src="JPG فيلا.jpg" title="فيلا "</tr>
+<tr> <img src="JPG مكتب .jpg" title="مكتب مساحة40 م²"</tr>
+<tr> <img src="JPGمحل.jpg" title="محل مساحة100 م²"</tr>
+<tr> <img src="JPG مستودع.jpg"  title="مستوع "</tr>
+<tr> <img src="JPG ارض.jpg"  title="ارض "</tr>
+
+
+</body>
